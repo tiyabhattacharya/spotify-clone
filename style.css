@@ -35,8 +35,19 @@ nav ul li{
     
 }
 .container{
-    min-height: 75vh;
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+
 }
+
 .bottom{
     position: sticky;
     height: 130px;
@@ -46,7 +57,15 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     
+    
+}
+.icons{
+    margin-top: 16px;
+}
+.icons i{
+    cursor: pointer;
 }
 #myProgressBar{
     width: 80vw;
